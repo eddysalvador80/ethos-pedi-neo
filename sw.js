@@ -1,7 +1,7 @@
 /* ETHOS Pedi-Neo · Ácido-base — service worker
    Estrategia network-first: con conexión trae siempre lo más nuevo (auto-actualización al publicar);
    sin conexión responde desde la caché (uso offline). Sube VERSION para forzar limpieza de caché vieja. */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'ethos-pedi-neo-' + VERSION;
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png'];
 
